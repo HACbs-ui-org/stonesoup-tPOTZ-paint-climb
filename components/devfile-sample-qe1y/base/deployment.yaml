@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-qe1y
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-qe1y
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:a34a135a571e535ae78c0e78eb1071aeda62fc71cf49afc2cf92d2c6d1fc243a
         name: my-nodejs
         ports:
         - containerPort: 3001
